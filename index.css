@@ -84,7 +84,7 @@ body {
       color: gray;
   }
   @media only screen and (max-width: 600px) { /*for phones*/
-  #banner-message {
+  div {
     width: 100%;
   }
   html, body {
