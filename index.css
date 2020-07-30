@@ -3,6 +3,9 @@ body {
     padding: 20px;
     font-family: Helvetica;
   }
+  p {
+    color :white;
+  }
   h1 {
       font-size : 21px;
       margin : auto;
