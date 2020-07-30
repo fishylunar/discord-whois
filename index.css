@@ -8,6 +8,7 @@ body {
       margin : auto;
       text-align: center;
       padding-top:8px;
+      color:white;
   }
   #header {
       background-color: white;
@@ -18,7 +19,7 @@ body {
       margin-bottom: 20px;
   }
   #userSearch {
-     background: #fff;
+     background: #121212;
     border-radius: 8px;
     font-size: 16px;
     text-align: center;
