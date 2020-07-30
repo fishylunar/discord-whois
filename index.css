@@ -87,6 +87,12 @@ body {
   #banner-message {
     width: 100%;
   }
+  html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
 }
   pre code {
     background-color: #121212;
