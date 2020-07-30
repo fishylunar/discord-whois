@@ -35,7 +35,6 @@ body {
       color:gray;
   }
   #banner-message {
-    background: #fff;
     border-radius: 4px;
     padding: 20px;
     font-size: 25px;
@@ -84,7 +83,11 @@ body {
       font-size: 14px!important;
       color: gray;
   }
-  
+  @media only screen and (max-width: 600px) { /*for phones*/
+  #banner-message {
+    width: 100%;
+  }
+}
   pre code {
     background-color: #121212;
     border: 1px solid #121212;
