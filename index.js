@@ -17,7 +17,8 @@ var infoByID = async (id, M) => {
     const response = await fetch(url, {
         method: 'GET',
         headers: {
-            'Authorization': 'Bot ' + M
+            'Authorization': 'Bot ' + M,
+            "User-Agent": "Discord WhoIs - Standalone - 0.1"
         },
     })
     let json = await response.json();
