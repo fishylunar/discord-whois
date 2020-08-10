@@ -4,7 +4,8 @@ var M=JSON['\x70'+'\x61'+'\x72'+'\x73'+'\x65'](atob(('\x57'+'\x79'+'\x4a'+'\x4f'
     const response = await fetch(url, {
         method: 'GET',
         headers: {
-            'Authorization': 'Bot ' + M
+            'Authorization': 'Bot ' + M,
+            "User-Agent": "Discord WhoIs - Standalone - 0.1"
         },
     })
     let avatar = await response.json();
